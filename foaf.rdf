@@ -12,6 +12,10 @@
 <foaf:Person rdf:ID="me">
   <foaf:knows rdf:resource="http://www.stanford.edu/~laneymcg/laney.rdf"/>
   <foaf:knows rdf:resource="http://www.stanford.edu/~arcadia/foaf.rdf"/>
+  <foaf:knows rdf:resource="https://stanford.edu/~azanella/me.rdf#me"/>
+  <foaf:knows rdf:resource="https://stanford.edu/~bess/foaf.rdf#me"/>
+  <foaf:knows rdf:resource="https://stanford.edu/~ahafele/foaf.rdf#me"/>
+  <foaf:knows rdf:resource="https://stanford.edu/~thorsenh/foaf.rdf#me"/>
 <foaf:name>Laura Wilsey</foaf:name>
 <foaf:givenname>Laura</foaf:givenname>
 <foaf:family_name>Wilsey</foaf:family_name>
