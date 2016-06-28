@@ -1,0 +1,22 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+  <foaf:knows rdf:resource="http://www.stanford.edu/~laneymcg/laney.rdf"/>
+  <foaf:knows rdf:resource="http://www.stanford.edu/~arcadia/foaf.rdf"/>
+<foaf:name>Laura Wilsey</foaf:name>
+<foaf:givenname>Laura</foaf:givenname>
+<foaf:family_name>Wilsey</foaf:family_name>
+<foaf:mbox_sha1sum>325c881e896a39092595946cc65c3a977d7db49c</foaf:mbox_sha1sum>
+<foaf:workplaceHomepage rdf:resource="http://web.stanford.edu/~lauraw15/"/>
+<foaf:workInfoHomepage rdf:resource="http://library.stanford.edu/department/digital-library-systems-and-services-dlss/about-us"/>
+<foaf:schoolHomepage rdf:resource="http://www.ucsc.edu/"/></foaf:Person>
+</rdf:RDF>
