@@ -22,10 +22,11 @@
 <foaf:mbox_sha1sum>325c881e896a39092595946cc65c3a977d7db49c</foaf:mbox_sha1sum>
 <foaf:workplaceHomepage rdf:resource="http://web.stanford.edu/~lauraw15/"/>
 <foaf:workInfoHomepage rdf:resource="http://library.stanford.edu/department/digital-library-systems-and-services-dlss/about-us"/>
-<foaf:schoolHomepage rdf:resource="http://www.ucsc.edu/"/></foaf:Person>
-<foaf:interest rdf:resource="http://dbpedia.org/page/Greyhound />"
-<foaf:interest rdf:resource="http://dbpedia.org/page/Big_Sur />"
-<foaf:interest rdf:resource="http://dbpedia.org/page/Documentary_film />"
-<foaf:interest rdf:resource="http://dbpedia.org/page/The_Neverending_Story />"
-<foaf:interest rdf:resource="http://dbpedia.org/page/Science_fiction />"
+<foaf:schoolHomepage rdf:resource="http://www.ucsc.edu/"/>
+<foaf:interest rdf:resource="http://dbpedia.org/page/Greyhound"/>
+<foaf:interest rdf:resource="http://dbpedia.org/page/Big_Sur"/>
+<foaf:interest rdf:resource="http://dbpedia.org/page/Documentary_film"/>
+<foaf:interest rdf:resource="http://dbpedia.org/page/The_Neverending_Story"/>
+<foaf:interest rdf:resource="http://dbpedia.org/page/Science_fiction"/>"
+</foaf:Person>
 </rdf:RDF>
