@@ -5,7 +5,7 @@ puts graph.inspect
 
 query = "
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-SELECT *
+SELECT DISTINCT ?o
  WHERE { ?s foaf:knows ?o }
 "
 puts "beforeloading"
@@ -15,10 +15,12 @@ sse.execute(graph) do |result|
  rdf = RDF::Resource(RDF::URI.new(result.o))
  graph.load(rdf)
 end
+
 puts "afterloading"
 sse.execute(graph) do |result|
  puts result.o
 end
+
 # bess_rdf = RDF::Resource(RDF::URI.new("http://www.stanford.edu/~laneymcg/laney.rdf"))
 #
 # hacker_nt = RDF::Resource(RDF::URI.new("http://www.stanford.edu/~arcadia/foaf.rdf"))
